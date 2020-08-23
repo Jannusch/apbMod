@@ -11,6 +11,7 @@ minetest.register_node("apbmod:glowing_Floor", {
 	},
 	paramtype = "light",
 	light_source = 15,
+	groups = { cracky = 3 },
 })
 
 
