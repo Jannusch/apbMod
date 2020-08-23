@@ -22,14 +22,14 @@ minetest.register_node("apbmod:normal_Floor", {
 
 minetest.register_node("apbmod:guide_strips_for_the_blind", {
 	description = "Look at the name of this node...",
-	tiles = {"default_wood.png"},
+	tiles = {"black.png"},
 	drawtype = "nodebox",
 	node_box = {
 		type = "fixed",
 		fixed = {
-			{-0.4, -0.5, -0.5, -0.25, -0.4, 0.5},
-			{-0.075, -0.5, -0.5, 0.075, -0.4, 0.5},
-			{0.25, -0.5, -0.5, 0.4, -0.4, 0.5},
+			{-0.4, -0.5, -0.4, -0.25, -0.4, 0.4},
+			{-0.075, -0.5, -0.4, 0.075, -0.4, 0.4},
+			{0.25, -0.5, -0.4, 0.4, -0.4, 0.4},
 		},
 	}
 })
