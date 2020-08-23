@@ -14,4 +14,10 @@ minetest.register_node("apbmod:glowing_Floor", {
 	groups = { cracky = 3 },
 })
 
+minetest.register_node("apbmod:normal_Floor", {
+	description = "So normal, so much wow",
+	tiles = { "all_sides_but_bottom.png" },
+	groups = { cracky = 3},
+})
+
 
