@@ -20,4 +20,14 @@ minetest.register_node("apbmod:normal_Floor", {
 	groups = { cracky = 3},
 })
 
-
+minetest.register_node("apbmod:guide_strips_for_the_blind", {
+	description = "Look at the name of this node...",
+	tiles = {},
+	drawtype = "nodebox",
+	node_box = {
+		type = "fixed",
+		fixed = {
+			{-0.5, -0.5, -0.5, 0.5, -0.4, 0.5},
+		},
+	}
+})
