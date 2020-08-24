@@ -24,6 +24,9 @@ minetest.register_node("apbmod:guide_strips_for_the_blind", {
 	description = "Look at the name of this node...",
 	tiles = {"black.png"},
 	drawtype = "nodebox",
+	paramtype = "light",
+	sunlight_propagates = true,
+	paramtype2 = "facedir",
 	node_box = {
 		type = "fixed",
 		fixed = {
@@ -33,4 +36,5 @@ minetest.register_node("apbmod:guide_strips_for_the_blind", {
 		},
 	},
 	groups = { cracky = 3},
+	on_place = minetest.rotate_node
 })
