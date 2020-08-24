@@ -12,6 +12,8 @@ minetest.register_node("apbmod:glowing_Floor", {
 	paramtype = "light",
 	light_source = 15,
 	groups = { cracky = 3 },
+	paramtype2 = "facedir",
+	on_place = minetest.rotate_node
 })
 
 minetest.register_node("apbmod:normal_Floor", {
